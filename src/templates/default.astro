@@ -1,10 +1,13 @@
 ---
 import "../styles/global.css";
 import Navbar from "../components/shared/navbar.astro";
+import Head from "../components/shared/head.astro";
+
+const { title } = Astro.props;
 ---
 <html>
     <head>
-        <title>Test</title>
+        <Head page={title}/>
     </head>
     <body>
         <Navbar/>

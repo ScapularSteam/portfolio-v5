@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --font-DmSans: DM Sans, sans-serif;
+  --font-DmSerif: DM Serif Text, serif;
+}
